@@ -1,45 +1,53 @@
-body{ 
+body { 
     background-color: rgb(255, 255, 255);
     margin-left: 45px;
     margin-right: 45px;
 }
-a{
+a {
     color: rgb(38, 0, 255);
-    text-decoration: none;
     border: black 2px solid;
     margin: 20px;
     padding: 20px;
 }
-a:hover{
+a:hover {
     color: rgb(255, 0, 21);
 }
-a:visited{
+a:visited {
     color: orange;
 }
-a:focus{
+a:focus {
     color:rgb(21, 255, 0)
 }
-h1{
-    color:rgb(65, 15, 15);
-    font-size: 50px;
-}
-span{
-    font-size: 100px;
-    color: rgb(0, 0, 0);
-}
-p:hover{
+p:hover {
     font-size: 300px;
     color:white;
 }
-menu{
+menu {
     display: flex;
-    list-style: none;
     justify-content: center;
 }
-
-
-
-
+header[title=zahlavi] {
+    background-color: rgba(206, 54, 54, 0.404);
+    font-size: 30px;
+}
+header h1 { /*header je rodič h1*/
+    background: linear-gradient(to left, #42c9d3, #1a03e6, #302b63);
+    color: aqua;
+    text-align: center;
+    padding: 1%;
+    font-size: 70px;
+}
+header[title] h2 {
+    color: rgb(102, 27, 102);
+    font-size: 50px;
+    background: linear-gradient(to left, #302b63, #42c9d3, #1a03e6);
+    text-align: center;
+    padding: 2px;
+}
+menu > li { /*přímý potomek, dítě*/
+    text-decoration: none;
+    list-style: none;
+}
 
 
 
