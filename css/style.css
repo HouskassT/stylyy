@@ -12,9 +12,9 @@ a {
 a:hover {
     color: rgb(255, 0, 21);
 }
-a:visited {
+/*a:visited {
     color: orange;
-}
+}*/
 a:focus {
     color:rgb(21, 255, 0)
 }
@@ -48,8 +48,11 @@ menu > li { /*přímý potomek, dítě*/
     text-decoration: none;
     list-style: none;
 }
-
-
+header + p {  /* + následující sourozenec; - pozdější sourozenec*/
+    color: rgb(49, 192, 68);
+    font-size: 35px;
+}
+/* * - všechny prvky na stránce */
 
 
 
